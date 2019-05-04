@@ -1,0 +1,5 @@
+C:\Users\Familia05\Desktop\Desarrollos\ListedMnemonicSummaries\ListedMnemonicSummaries\bin\Debug\ListedMnemonicSummaries.dll
+C:\Users\Familia05\Desktop\Desarrollos\ListedMnemonicSummaries\ListedMnemonicSummaries\bin\Debug\ListedMnemonicSummaries.pdb
+C:\Users\Familia05\Desktop\Desarrollos\ListedMnemonicSummaries\ListedMnemonicSummaries\obj\Debug\ListedMnemonicSummaries.csprojResolveAssemblyReference.cache
+C:\Users\Familia05\Desktop\Desarrollos\ListedMnemonicSummaries\ListedMnemonicSummaries\obj\Debug\ListedMnemonicSummaries.dll
+C:\Users\Familia05\Desktop\Desarrollos\ListedMnemonicSummaries\ListedMnemonicSummaries\obj\Debug\ListedMnemonicSummaries.pdb
