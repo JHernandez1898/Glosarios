@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
 <head>
@@ -179,28 +179,33 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-6">
-					<form id="form_58909" class="appnitro"  method="post" action="">
-						<div class="form_description">
-							<h2>Glosario</h2>
-							<p>Por favor ingrese en la parte inferior el concepto que requiere del texto en la entrada</p>
-							</div>						
-								<label class="description" for="element_1">Titulo del glosario </label>
-								<div>
-									<input id="element_1" name="element_1" class="element text large" type="text" size="90" maxlength="989546" value=""/> 
-								</div> 
-								
-								<label class="description" for="element_2">Escriba el concepto a agregar </label>
-								<div>
-									<input id="element_2" name="element_2" class="element text medium" type="text" maxlength="255" value=""/> 
-								</div> 
-								<label class="description" for="element_3">Entrada </label>
-								<div>
-									<textarea id="element_3" name="element_3"  cols="90" ></textarea> 
-								</div> 
-										<input type="hidden" name="form_id" value="58909" />
-										
-										<input id="saveForm" class="btn-default" type="submit" name="submit" value="Submit" />
-								</form>	
+                    <form id="form_58909" class="appnitro" method="post" action="">
+                        <div class="form_description">
+                            <h2>Glosario</h2>
+                            <p>Por favor ingrese en la parte inferior el concepto que requiere del texto en la entrada</p>
+                        </div>
+                        <label class="description" for="element_1">Titulo del glosario </label>
+                        <div>
+                            <input id="element_1" name="element_1" class="element text large" type="text" size="90" maxlength="989546" value="" />
+                        </div>
+
+                        <label class="description" for="element_2">Escriba el concepto a agregar </label>
+                        <div>
+                            <input id="element_2" name="element_2" class="element text medium" type="text" maxlength="255" value="" />
+                        </div>
+                        <label class="description" for="element_3">Entrada </label>
+                        <div>
+                            <textarea id="texto" name="texto" cols="90"></textarea>
+                        </div>
+                        <label class="description" for="element_3">Salida </label>
+                        <div>
+                            <textarea id="textoSalida" name="textoSalida" cols="90"></textarea>
+                        </div>
+
+                        <input type="hidden" name="form_id" value="58909" />
+
+                        <input id="btnGlosario" class="btn-default" type="submit" name="submit" value="Submit" onclick="CrearResumen('Original/Rewrite/Rewrite')" />
+                    </form>	
 								</div>
 				</div>
 				
